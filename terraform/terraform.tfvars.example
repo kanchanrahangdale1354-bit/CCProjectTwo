@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars and fill in your values
+# NEVER commit terraform.tfvars to Git!
+
+cloudflare_account_id = "your-32-character-account-id-here"
+app_name              = "student-task-manager"
+environment           = "production"
+kv_namespace_title    = "student-tasks-kv"
